@@ -19,6 +19,7 @@ Why Rust?
 - async trait 없어서 아쉽 - 하지만 async 파트와 sync 파트 나눌 수 있으면 나누는게 여러 면에서 좋은 것 같다.
 
 serde 생산성 짱짱 - 같은 코드 가지고 
+#[derive(Debug)] 생산성도 좋네... 이거가지고 간단한 디버깅 툴 금방 만들 수 있었다.
 
 serde-json/bincode 미묘한 문제 - tagged union 으로 하려니 그걸 bincode 로 deserialize 못하게 됨 - 깃헙 이슈
 
